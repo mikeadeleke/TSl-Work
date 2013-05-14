@@ -115,7 +115,7 @@ a:hover {
 	height: 32px;
 	width: 32px;
 	margin: 0 auto;
-	background: #007FB1 url('../img/linkedin-32.png') center	center;
+	background: #007FB1 url('../img/linkedin-32.png') center center;
 	
 }
 #googleplus {
@@ -209,4 +209,13 @@ div h2 {
 	}
 .calendar_background {
 	background-color: beige;
+}
+p {
+	font-size: 20px;
+	font-size: bold;
+
+}
+.about_page {
+	background-color: white;
+	
 }

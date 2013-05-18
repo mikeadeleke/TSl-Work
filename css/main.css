@@ -72,13 +72,10 @@ h3 {
   font-size: 27px;
 }  
 p {
-  font-size: 17px;
+  font-size: 14px;
 }   
 body {
-	
-	background-image: url("../img/bg-spot-tile.png");
 	padding: 15px;
-	line-height: 60px;
 }
 footer h2 {
 	border: 20px;
@@ -91,8 +88,6 @@ ul li {
 	display: inline;
 	padding-right: 10px;
 	text-decoration: none;
-	
-
 }
 
 a {
@@ -209,11 +204,6 @@ div h2 {
 	}
 .calendar_background {
 	background-color: beige;
-}
-p {
-	font-size: 20px;
-	font-size: bold;
-
 }
 .about_page {
 	background-color: white;

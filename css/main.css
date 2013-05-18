@@ -62,11 +62,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 h1 {
   font-size: 53px;
-  text-align: left;
 }
 h2 {
   font-size: 34px;
-  text-align: left;
 }
 h3 {
   font-size: 27px;
@@ -194,7 +192,7 @@ footer {
 	background-color: white;
 
 }
-div h2 {
+#exp-calendar div h2 {
 		border: 1px solid blue;
 		border-radius: 6px;
 		text-align: center;
@@ -209,3 +207,47 @@ div h2 {
 	background-color: white;
 	
 }
+
+section {
+	padding: 20px 0;
+}
+
+header.exp {
+	
+}
+/* Begin Experiment - Dribble Typography */
+#exp-dribbble {
+	margin: 40px 0;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#exp-dribbble div {
+	width: 400px;
+	height: 350px;
+	margin: 0 auto;
+	background: #E0D7B2;
+	padding-top: 25px;
+}
+
+#exp-dribbble div h1 {
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 140px;
+}
+
+#exp-dribbble div h2, #exp-dribbble div h3 {
+	font-family: Courier;
+
+}
+#exp-dribbble div h3 {
+	font-size: 45px;
+}
+.effect{
+background: #EEE url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAAHklEQVQImWNkYGBgYGD4//8/A5wF5SBYyAr+//8PAPOCFO0Q2zq7AAAAAElFTkSuQmCC) repeat;
+font-size: 78px;
+text-shadow: 5px 5px black, 4px 4px white;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text; 
+}
+/* End Experiment - Dribbble Typography */

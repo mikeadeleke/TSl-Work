@@ -226,6 +226,9 @@ header.exp {
 
 /* Begin Journal Page */
 
+	iframe {
+		margin: 10px 0;
+	}
 
 /* End Journal Page */
 
@@ -267,6 +270,13 @@ header.exp {
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text; 
 	}
+
+
+
+
+
+
+
 	/* End Experiment - Dribbble Typography */
 
 	 /*Begin Experiment - Alert Messages*/
@@ -315,7 +325,7 @@ header.exp {
 	 	font-size: 16px;
 	 }
 	 .info {
-	 	background: #247AB4 url('../img/icon-info.png') center left no-repeat;
+	 	background: #247AB4 url('../img/icon-alerts.png') center left no-repeat;
 	 	
 	 }
 
@@ -332,7 +342,8 @@ header.exp {
 	}
 
 	.success {
-		background: #5D8D34 url('../img/icon-success.png') center left no-repeat;
+		background: #5D8D34 url('../img/icon-alerts.png') center left no-repeat;
+		background-position: -80px top;
 	}
 
 	 .success .content {
@@ -348,7 +359,8 @@ header.exp {
 	 }
 
 	 .warning {
-	 	background: #BEA53F url('../img/icon-warning.png') center left no-repeat;
+	 	background: #BEA53F url('../img/icon-alerts.png') center left no-repeat;
+	 	background-position: -160px top;
 	 }
 	 .warning .content {
 	 	background: rgb(255,222,89); /* Old browsers */
@@ -363,7 +375,8 @@ header.exp {
 	 }
 
 	 .error {
-	 	background: #B63B39 url('../img/icon-error.png') center left no-repeat;
+	 	background: #B63B39 url('../img/icon-alerts.png') center left no-repeat;
+	 	background-position: -240px top;
 	 }
 	 .error .content {
 	 	background: rgb(250,85,82); /* Old browsers */
